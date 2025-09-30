@@ -1,0 +1,101 @@
+/* Style dasar halaman */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ffe4ec;
+}
+
+/* Header */
+header {
+  background-color: #ec4899;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Foto utama */
+.main-photo {
+  padding: 20px;
+}
+
+.main-photo img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Bagian hadiah */
+.gifts {
+  background-color: white;
+  padding: 20px;
+}
+
+.gift-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gift {
+  background-color: #f9d5e5;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 150px;
+}
+
+.gift img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Ucapan */
+.wish {
+  padding: 20px;
+}
+
+.wish input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.wish button {
+  padding: 10px 15px;
+  background-color: #ec4899;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#wishList {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wishList p {
+  background: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #ec4899;
+  color: white;
+  padding: 10px 0;
+  margin-top: 30px;
+}
